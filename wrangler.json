@@ -1,0 +1,30 @@
+{
+  "name": "flat-rice-449d",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "flat-rice-449d-d1",
+      "database_id": "f74427e5-2141-4b39-ae10-e0c36e345827"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "flat-rice-449d-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
